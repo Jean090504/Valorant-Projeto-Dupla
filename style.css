@@ -1,0 +1,166 @@
+body{
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.7);
+    background-image: url(./img/fundo.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+header {
+    background-color: #FF4655;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.traco {
+    width: 4px;
+    height: 70px;
+    background-color: #222;
+    border-radius: 2px;
+    margin: 0 32px;
+    align-self: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.spans{
+    font-size: 24px;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    cursor: pointer;
+    font-family: "poppins", sans-serif;
+}
+
+.textos{
+    font-size: 20px;
+    color: #ffffff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 650px;
+    width: 650px;
+    height: 300px;
+    height: auto;
+    line-height: 1.5;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    flex: 1;
+}
+
+p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 0px 20px 0px 20px ;
+}
+
+h1{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #FF4655;
+    padding: 0px 0px 0px 30px ;
+    font-family: "Momo Trust Display", sans-serif; 
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+
+.killjoy {
+  font-size: 120px;
+  color: #e75a5a;
+  font-family: "Momo Trust Display", Impact, Arial, sans-serif;
+  font-weight: extra-bold;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.sentinel {
+  position: absolute;
+  transform: scale(1,1.4);
+  font-size: 33px;
+  color: #fff;
+  font-family: "Momo Trust Display", Impact, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.bio{
+    padding: 20px;
+
+}
+
+.imagem-kj {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 320px;
+    max-width: 40vw;
+}
+
+.imagem-kj img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+    z-index: 1;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 96%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 76vh;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valorant{
+    position: absolute;
+    bottom: 100px;
+    left: 96%;
+    transform: translateX(-50%);
+    gap: 20px;
+    padding: 20px
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
