@@ -95,9 +95,10 @@ h2{
 
 .killjoy {
   font-size: 120px;
-  color: #e75a5a;
+  color: #FF4654;
   font-family: "Momo Trust Display", Impact, Arial, sans-serif;
   font-weight: extra-bold;
+  transform: scale(1,1.5);
   letter-spacing: 2px;
   line-height: 1.2;
 }
@@ -111,7 +112,7 @@ h2{
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1;
-  top: 250px;
+  top: 280px;
   left: 420px;
 }
 
