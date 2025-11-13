@@ -178,7 +178,7 @@ footer{
     cursor: pointer;
 }
 
-footer:hover{
+.patch:hover{
     transform: scale(1.02);
 }
 
